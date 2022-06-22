@@ -38,6 +38,7 @@ body {
 
 /* Additions */
 
+
 .juan {
   border-radius: 10px;
 }
@@ -417,6 +418,7 @@ section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .skill-svg:hover {
