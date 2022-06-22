@@ -38,6 +38,16 @@ body {
 
 /* Additions */
 
+#custom {
+  font-size: 2.5rem;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
 
 .juan {
   border-radius: 10px;
