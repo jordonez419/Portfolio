@@ -18,7 +18,7 @@ function HeroSection() {
           <h2 className="text-3xl font-semibold text-[#4B6CB7]">
             Software Developer
           </h2>
-          <h1 className="text-6xl font-bold">Hey! I Am</h1>
+          <h1 className="text-6xl font-bold">Hi! My name is</h1>
           <h1 className="text-6xl font-bold bg-gradient-to-r from-[#1E3A8A] to-[#4B6CB7] text-transparent bg-clip-text inline-block py-4">
             Juan Ordonez
           </h1>
