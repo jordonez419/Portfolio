@@ -25,6 +25,7 @@ import fitFusionThumbnail from '/images/fitFusionThumbnail.png';
 import yokaiSlayerThumbnail from '/images/yokaiSlayerThumbnail.png';
 import vanLifeThumbnail from '/images/vanLifeThumbnail.png';
 import patriciaPortfolioThumbnail from '/images/patriciaPortfolioThumbnail.png';
+import nbaSimPortfolioThumbnail from '/images/nbasim.png';
 
 export const skillsData = [
   { icon: htmlIcon, text: 'HTML' },
@@ -83,12 +84,12 @@ export const projectsData = [
     link: 'https://patriciaportfoliosite.netlify.app/',
   },
   {
-    thumbnail: patriciaPortfolioThumbnail,
+    thumbnail: nbaSimPortfolioThumbnail,
     techUsed: 'React, React Router, Styled Components',
     description:
-      'Simulate fantasy basketball matchups between your favorite NBA All-Stars!',
+      'A front-end application that allows a user to simulate fantasy basketball matchups between their favorite NBA All-Stars!',
     name: 'NBA Simulator',
-    link: 'https://patriciaportfoliosite.netlify.app/',
+    link: 'https://nbasimv4.vercel.app/',
   },
 ];
 
