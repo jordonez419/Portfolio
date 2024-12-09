@@ -26,6 +26,7 @@ import yokaiSlayerThumbnail from '/images/yokaiSlayerThumbnail.png';
 import vanLifeThumbnail from '/images/vanLifeThumbnail.png';
 import patriciaPortfolioThumbnail from '/images/patriciaPortfolioThumbnail.png';
 import nbaSimPortfolioThumbnail from '/images/nbasim.png';
+import drubioThumbnail from '/images/drubio.png'
 
 export const skillsData = [
   { icon: htmlIcon, text: 'HTML' },
@@ -68,12 +69,12 @@ export const projectsData = [
     link: 'https://yokaislayer.netlify.app/',
   },
   {
-    thumbnail: vanLifeThumbnail,
-    techUsed: 'React, React Router, Mirage JS',
+    thumbnail: drubioThumbnail,
+    techUsed: 'Word Press',
     description:
-      'A Front End Application where users can view a wide variety of travel vans to rent and log in to their account to view a dashboard displaying their hosted vans, income, and reviews.',
-    name: 'Van Life',
-    link: 'https://van-life-application.netlify.app/',
+      'Dynamic Portfolio for Miami based Reggaeton artist',
+    name: 'Drubio Music Portfolio',
+    link: 'https://drubiomusic.com/',
   },
   {
     thumbnail: patriciaPortfolioThumbnail,
@@ -90,6 +91,14 @@ export const projectsData = [
       'A front-end application that allows a user to simulate fantasy basketball matchups between their favorite NBA All-Stars!',
     name: 'NBA Simulator',
     link: 'https://nbasimv4.vercel.app/',
+  },
+  {
+    thumbnail: vanLifeThumbnail,
+    techUsed: 'React, React Router, Mirage JS',
+    description:
+      'A Front End Application where users can view a wide variety of travel vans to rent and log in to their account to view a dashboard displaying their hosted vans, income, and reviews.',
+    name: 'Van Life',
+    link: 'https://van-life-application.netlify.app/',
   },
 ];
 
